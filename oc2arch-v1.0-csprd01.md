@@ -134,7 +134,7 @@ Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words", BCP 14, 
 Rescorla, E. and B. Korver, "Guidelines for Writing RFC Text on Security Considerations", BCP 72, RFC 3552, DOI 10.17487/RFC3552, July 2003, https://www.rfc-editor.org/info/rfc3552.
 
 ## 1.5 Goal
-The goal of the OpenC2 Language Specification is to provide a model for interoperating between functional elements of cyber defense systems. This language used in conjunction with the OpenC2 Language SPecification, OpenC2 Actuator Profiles, and OpenC2 Transfer Specifications allows for vendor-agnostic cybertime response to attacks.
+The goal of the OpenC2 Language Specification is to provide a model for interoperating between functional elements of cyber defense systems. This language used in conjunction with the OpenC2 Language Specification, OpenC2 Actuator Profiles, and OpenC2 Transfer Specifications allows for vendor-agnostic cybertime response to attacks.
 
 The Integrated Adaptive Cyber Defense (IACD) framework defines a collection of activities, based on the traditional OODA (Observe–Orient–Decide–Act) Loop [[IACD]](#iacd):
 
@@ -169,7 +169,7 @@ The language defines two payload structures:
 
 The Action and Target components are required. A particular Target may be further refined by the Target type. Procedures to extend the Targets are described in [Section 3.1.4](#314-extensions).
 
-Command Arguments, if present, influence the Command by providing information such as timing, periodicity, duration, or other details on what is to be executed. Command Arguments are defiend in the OpenC2 Language Specification.
+Command Arguments, if present, influence the Command by providing information such as timing, periodicity, duration, or other details on what is to be executed. Command Arguments are defined in the OpenC2 Language Specification.
 
 An Actuator is an implementation of a cyber defense function that executes the Command. An Actuator Profile is a specification that identifies the subset of Actions, Targets and other aspects of this language specification that are required or optional in the context of a particular Actuator. An Actuator Profile may extend the language by defining additional Targets, Arguments, and Actuator Specifiers that are meaningful and possibly unique to the Actuator.
 
